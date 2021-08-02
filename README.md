@@ -15,4 +15,4 @@
    
 ## How To Use
 - Chromedriver needs to be in same directory as follow.py
-- python3 follow.py <username> <password> <some_persons_instagram_username>
+- python3 follow.py [username] [password] [some_persons_instagram_username]
