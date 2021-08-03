@@ -11,7 +11,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 #username, password, person to search for follower list
 username, password, ll  = str(sys.argv[1]), str(sys.argv[2]), str(sys.argv[3])
-options = Options().add_argument('window-size=1400,600')
+options = Options()
+resized = options.add_argument('window-size=1400,600')
 driver = webdriver.Chrome(chrome_options=options, executable_path=os.getcwd()+'/chromedriver')
 wait = WebDriverWait(driver, 5)
 landing = driver.get('https://www.instagram.com/')
