@@ -6,7 +6,7 @@
 - Python 3.8.0
 ## Browser
 - Chrome Version 92.0.4515.107 (Official Build) (x86_64)
-- Firfox 
+- Firefox 
 
 ## Dependencies
 - Usually ChromeDriver Version 92.0.4515.107, but now 'geckodriver 0.29.1'
