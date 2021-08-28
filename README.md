@@ -1,7 +1,6 @@
 
 # instagram-follow-bot
-## Have cool stuff to share but no audience? This script works by following a bunch of people on instagram with the hope that they will follow back.
-## Note, However, due to instagrams' constantly changing DOM, this code may need to be modified. 
+## Have cool stuff to share but no audience? This script works by following a bunch of people on instagram with the hope that they will follow 
 
 ## Versions
 - Python 3.8.0
