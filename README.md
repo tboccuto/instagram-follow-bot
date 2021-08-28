@@ -14,6 +14,3 @@
 - Selenium 3.141.0
 - Selenium Webdriver
    
-## How To Use
-- Chromedriver needs to be in same directory as follow.py
-- python3 follow.py <your_username> <your_password> <some_persons_instagram_username>
