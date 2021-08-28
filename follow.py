@@ -74,11 +74,11 @@ class Follow:
     def close_follower_box(self):
         close = WebDriverWait(self.driver,5).until(ec.element_to_be_clickable((By.XPATH,'/html/body/div[6]/div/div/div[1]/div/div[2]/button'))).click()
     
-    def set_topics(*argv):
+    def set_topics(self, *argv):
         li = [arg for arg in argv]
         return li
     
-    def check_topic(substring, name):
+    def check_topic(self, substring, name):
         ret = False
         if len(str(name)) <  0:
             return ret
@@ -87,7 +87,7 @@ class Follow:
                 ret = True
         return ret
     
-    def element_present(self,text):
+    def element_present(self, text):
         ttext = WebDriverWait(self.driver, 5).until(ec.presence_of_all_elements_located((By.PARTIAL_LINK_TEXT, text)))
         if ttext:
             return True
