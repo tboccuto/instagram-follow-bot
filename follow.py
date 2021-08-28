@@ -174,10 +174,6 @@ class Follow:
                 time.sleep(3)
                 usr_text.location_once_scrolled_into_view
             print(ig_usernames)
-
-def sys_test():
-    #type username, password, account to follow
-    ret, rett, rettt = input(), input(), input()
     
 def main():    
     username=input()
